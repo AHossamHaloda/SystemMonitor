@@ -3,8 +3,8 @@
 
 #include <curses.h>
 
-#include "../inc/process.h"
-#include "../inc/system.h"
+#include "process.h"
+#include "system.h"
 
 namespace NCursesDisplay {
 void Display(System& system, int n = 10);
