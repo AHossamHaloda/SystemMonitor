@@ -78,3 +78,11 @@ This project uses [Make](https://www.gnu.org/software/make/). The Makefile has f
 **`./build/monitor`**
 
 ---
+
+## TBD
+
+   - Refactor ncurses_display to be a class.
+   - Fix Wanings in ncurses_display.
+   - Support Linux Os.
+
+---
