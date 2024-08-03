@@ -53,9 +53,7 @@ float System::MemoryUtilization() { return m_itfParser->MemoryUtilization(); }
 
 // Return the operating system name
 /*********************************************************************************************/
-std::string System::OperatingSystem() {
-  return m_itfParser->OperatingSystem();
-}
+std::string System::OperatingSystem() { return m_itfParser->OperatingSystem(); }
 
 // Return the number of processes actively running on the system
 /*********************************************************************************************/

@@ -302,7 +302,8 @@ std::vector<string> MacOs_parser::CpuUtilization() {
   }
 
   // Sleep for a somwtime to get the next sample
-  // This delay should not be const and should be handeled based on the current CPU load.
+  // This delay should not be const and should be handeled based on the current
+  // CPU load.
   std::this_thread::sleep_for(std::chrono::milliseconds(500));
 
   // Second data sample
